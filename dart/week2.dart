@@ -31,8 +31,10 @@ int callColor([String newColor = "White"]) {
   for (var item in color) {
     print(item);
   }
-  return color.length;
-}
-//
+  //print(color.length); รีเทรินจำนวนกลับไป
+    return color.length;
+  }
+
+//แสดงข้อมูลการเชื่อมต่อเว็บและ Port
 void callWeb(String web ,{int port = 80, String protocal = "http"}) => 
     print("$protocal: $web : $port");
